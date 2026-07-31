@@ -1,8 +1,25 @@
 aid: muni
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/muni.png
 name: Muni
-description: Muni is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Muni was a Latin American social-commerce and community group-buying platform founded in
+  2019 in Bogota, Colombia by Maria Echeverri Gomez, aiming to transform e-commerce across LATAM by
+  letting community leaders aggregate neighborhood demand and buy everyday grocery and household items
+  at prices up to 40 percent below competitors, with no added shipping or service fees. It raised a
+  Series A from Lightspeed Venture Partners in 2021 and at its peak served over 15,000 communities
+  across Colombia, Brazil, and Mexico. As of this enrichment pass the company's primary domain
+  (munitienda.com) resolves to a parked GoDaddy lander with no active product, developer portal, or
+  public API surface, so the profile remains a consumer-app portfolio lead with no discoverable API.
 url: https://raw.githubusercontent.com/api-evangelist/muni/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Social Commerce
+- E-Commerce
+- Group Buying
+- Retail
+- Latin America
+- Consumer
 apis: []
+x-api-surface: none
+x-api-surface-note: 'munitienda.com is a parked GoDaddy lander (no active product/API) as of 2026-07-20;
+  no developer portal, OpenAPI, SDKs, GitHub org, MCP, or event surface found via search/probe.'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
